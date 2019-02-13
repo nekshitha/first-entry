@@ -18,7 +18,7 @@ int main()
 
   swapped=((x>>24)&0xff)|((x>>8)&0xff00)|((x<<8)&0xff0000)|((x<<24)&0xff000000);
 
-    printf ("swapped: 0x%x\n", swapped);
+    printf ("swapped: 0x%x\n", swapped);;
 
   return 0;
 }
